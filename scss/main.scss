@@ -1,0 +1,49 @@
+$primary: #D1CFCA;
+$secondary: #465C69;
+$tertiary: #9E9B8B;
+$white: #ffffff;
+$border: 1px solid black;
+
+body {
+	background-color: $secondary;
+	margin: 1%;
+}
+
+#heading {
+	background-color: $tertiary;
+	padding: 10px 5px;
+	font-family: 'Muli', sans-serif;
+}
+
+#wrapper {
+	background-color: $primary;
+	// margin: 0 auto;
+	padding: 0 auto;
+}
+
+.page-header {
+	margin: auto;
+}
+
+.bio {
+	padding: 5px 5px 2px 5px;
+}
+/************************
+IMAGES
+************************/
+.memphis-pic {
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+.memphis-pic img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+	background-color: $tertiary;
+	margin: 0 auto;
+	padding: 15px 5px 1px 5px;
+}
