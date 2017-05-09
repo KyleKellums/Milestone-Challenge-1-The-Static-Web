@@ -1,0 +1,153 @@
+body {
+  background-color: #465C69;
+  margin: 1%; }
+
+#heading {
+  background-color: #9E9B8B;
+  padding: 10px 5px;
+  font-family: 'Muli', sans-serif;
+}
+
+#wrapper {
+  background-color: #D1CFCA;
+  padding: 0 auto;
+}
+
+.page-header {
+  margin: auto;
+  border-radius: 3px;
+}
+
+.bio {
+  padding: 5px 5px 2px 5px;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+#email {
+  color: black;
+  border: solid lightblue;
+  border-radius: 3px;
+}
+
+/************************
+WEBSITE LINKS
+************************/
+.resources {
+  text-align: center;
+}
+
+.resources ul {
+display: inline-block;
+}
+
+.resources ul li {
+  list-style-type: none;
+  text-decoration: none;
+  float: left;
+  width: 150px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+#sitesIlike {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.resources {
+    padding: 0;
+    box-shadow:  0 0 10px rgb(0,0,0);
+}
+
+
+/************************
+BOX-SHADOW ON WRAPPER
+************************/
+#wrapper {
+    position:relative;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+#wrapper:before, #wrapper:after {
+  content:"";
+    position:absolute;
+    z-index:-1;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    border-radius:100px / 10px;
+}
+
+#wrapper:after {
+    right:10px;
+    left:auto;
+    transform:skew(8deg) rotate(3deg);
+}
+
+
+/************************
+IMAGES
+************************/
+.memphis-pic {
+  width: 200px;
+  height: auto;
+  float: right;
+}
+
+.memphis-pic img {
+  width: 100%;
+  height: auto;
+}
+
+/************************
+IMAGES
+************************/
+
+footer {
+  background-color: #9E9B8B;
+  margin: 0 auto;
+  padding-top: 15px;
+/*  padding: 15px 5px 1px 5px;
+*/}
+
+#footer ul {
+  display: inline-block;
+}
+
+#footer ul li {
+  list-style-type: none;
+  text-decoration: none;
+  float: left;
+  width: 150px;
+  margin-right: 5px;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
